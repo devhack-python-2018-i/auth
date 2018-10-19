@@ -125,5 +125,5 @@ STATIC_URL = '/static/'
 JWT_HS256_KEY = os.environ.get("AUTH_JWT_HS256_KEY", "some_random_key")
 JWT_VALIDITY_TIME = os.environ.get("AUTH_JWT_VALIDITY_TIME", 3600)
 
-import django_heroku
-django_heroku.settings(locals())
+# import django_heroku
+# django_heroku.settings(locals())
