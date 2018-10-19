@@ -26,7 +26,8 @@ SECRET_KEY = 'o1z)-4bxm(u0a(#b5o=dixm9f2o&i5@^us7rp594vb0wvf#_uh'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "ma0collazos.pythonanywhere.com"
+    "ma0collazos.pythonanywhere.com",
+    "warm-oasis-29730.herokuapp.com"
 ]
 
 
